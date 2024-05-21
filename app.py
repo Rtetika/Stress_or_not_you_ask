@@ -21,5 +21,3 @@ if st.button("Predict"):
     else:
         st.write("Please enter some text to analyze")
 
-if __name__ == '__main__':
-    st.write("Streamlit app is running")
