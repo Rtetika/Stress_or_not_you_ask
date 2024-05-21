@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load the model and CountVectorizer
-model = joblib.load('stress_model.sav')
-cv = joblib.load('count_vectorizer.sav')
+model = joblib.load('stress_model.sav','rb')
+cv = joblib.load('count_vectorizer.sav', 'rb')
 
 # Define the Streamlit app
 st.title("Stress Detection App")
