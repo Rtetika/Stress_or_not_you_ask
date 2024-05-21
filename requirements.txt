@@ -1,7 +1,6 @@
-joblib~=1.0.1
+pandas
 numpy
-streamlit
-fastapi
+nltk
 scikit-learn
-uvicorn
-numpy
+joblib
+streamlit
